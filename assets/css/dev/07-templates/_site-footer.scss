@@ -1,0 +1,44 @@
+.site-footer {
+    background-color: $blue-darker;
+    color: $white-muted;
+    font-weight: 200;
+    padding-top: $grid-base * 4;
+    padding-bottom: $grid-base * 5;
+
+
+    &__item {
+        margin-bottom: $grid-base * 2.5;
+        @include lg-up {
+            margin-bottom: 0;
+        }
+    }
+
+    &__list-label {
+        color: $white;
+        font-style: normal;
+    }
+
+    &__list-item {
+        display: block;
+        padding-bottom: $grid-base * 1.5;
+        padding-top: $grid-base * 1.5;
+        border-bottom: 1px $blue-muted solid;
+    }
+
+    &__newsletter-intro {
+        display: block;
+        padding-bottom: $grid-base * 1.5;
+        padding-top: $grid-base * 1.5;
+    }
+
+    &__newsletter-input {
+        min-width: 50%;
+        margin-right: $grid-base * 2;
+        margin-bottom: $grid-base * 2;
+    }
+    
+    &__copyright {
+        font-weight: 400;
+        color: lighten($color: $blue-muted, $amount: 10%);
+    }
+}

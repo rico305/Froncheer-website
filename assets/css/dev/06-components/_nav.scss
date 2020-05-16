@@ -1,0 +1,22 @@
+.nav {
+    &__item {
+        color: $white;
+        display: block;
+        font-size: $font-size-3;
+        padding-bottom: $grid-base * 2.5;
+        padding-top: $grid-base * 2.5;
+        text-align: center;
+        width: 100%;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            color: $accent;
+        }
+
+        @include sm-up {
+            display: inline-block;
+            margin-left: $grid-base * 4;
+            width: auto;
+        }
+    }
+}

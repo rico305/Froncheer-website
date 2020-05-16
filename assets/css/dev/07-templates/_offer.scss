@@ -1,0 +1,54 @@
+.offer {
+    background-color: $blue-muted;
+    color: $white;
+    padding-top: $grid-base * 2;
+    padding-bottom: $grid-base * 3;
+
+    &__text {
+        padding-left: $grid-base * 1.5;
+        padding-right: $grid-base * 1.5;
+        text-align: justify;
+
+        @include md-up {
+            padding-left: 0;
+            width: 70%;
+            display: inline-block;
+        }
+        @include lg-up {
+            width: 75%;
+        }
+    }
+    
+    &__ad {
+        align-content: center;
+        background: url("../img/spacecraft.jpg");
+        background-size: cover;
+        display: flex;
+        flex-wrap: wrap;
+        height: 162px;
+        margin: auto;
+        margin-top: $grid-base;
+        text-align: center;
+        padding-right: $grid-base * 4;
+        padding-left: $grid-base * 4;
+        
+        @include md-up {
+            margin-top: 0;
+            width: 30%;
+        }
+        @include lg-up {
+            width: 25%;
+        }
+    }
+
+    &__ad-heading {
+        color: lighten($color: $accent, $amount: 40%);
+        flex: 0 0 100%;
+        font-weight: normal;
+        margin-bottom: $grid-base * 2;
+    }
+
+    &__ad-btn {
+        flex: 0 0 100%;
+    }
+}

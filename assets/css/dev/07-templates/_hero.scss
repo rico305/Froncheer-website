@@ -1,0 +1,35 @@
+.hero {
+    background-color: $blue-dark;
+    color: $white;
+    padding-top: $grid-base * 10;
+    padding-bottom: $grid-base * 8;
+    
+    @include md-up {
+        background: url("../img/bg-adbox.jpg"), $blue-dark;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 434px;
+        padding-left: $grid-base * 5;
+    }
+
+    &__container {
+        padding-right: 0;
+        
+        @include md-up {
+            padding-right: $grid-base * 50;
+        }
+        @include lg-up {
+            padding-right: $grid-base * 70;
+            
+        }
+    }
+
+    &__heading
+    {
+        margin-bottom: $grid-base * 2.5;
+    }
+
+    &__text {
+        text-align: justify;
+    }
+}

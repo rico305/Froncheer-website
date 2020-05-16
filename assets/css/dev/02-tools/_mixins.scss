@@ -1,0 +1,21 @@
+@mixin sm-up {
+    @media (min-width: #{$bp-small})
+    {
+        @content;
+    }
+}
+
+@mixin md-up {
+    @media (min-width: #{$bp-medium})
+    {
+        @content;
+    }
+}
+
+
+@mixin lg-up {
+    @media (min-width: #{$bp-large})
+    {
+        @content;
+    }
+}

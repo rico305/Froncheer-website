@@ -1,0 +1,18 @@
+.company-motto {
+    background-color: $gray;
+    color: lighten($color: $gray, $amount: 40);
+    padding-bottom: $grid-base * 1.5;
+    padding-top: $grid-base * 1.5;
+    text-align: center;
+
+    &__heading {
+        display: inline-block;
+        color: lighten($color: $gray, $amount: 40);
+        font-style: normal;
+    }
+
+    &__desc {
+        font-family: 'Vollkorn', serif;
+        font-size: $font-size-3;
+    }
+}
