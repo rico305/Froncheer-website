@@ -1,13 +1,7 @@
-.text-center {
-    text-align: center;
-}
-
 .text-right {
     text-align: right;
 }
 
-.text-lg-right {
-    @include lg-up {
-        text-align: right !important;
-    }
+.text-justify {
+    text-align: justify;
 }

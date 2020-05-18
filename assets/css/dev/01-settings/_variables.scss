@@ -4,13 +4,13 @@ $black: #000000;
 
 $accent: #1271DB;
 $blue-dark: #020A13;
-$blue-muted: #0F3E58;
 $blue-darker: #072438;
+$blue-muted: #0F3E58;
 $gray: #272727;
 $white-muted: #e1e9f2;
 
-$blue-gradient: linear-gradient(0deg, $blue-darker 0%, $accent 100%);
-$blue-gradient-lighten: linear-gradient(0deg, lighten($blue-darker, 20%) 0%, lighten($accent, 20%) 100%);
+$blue-gradient: linear-gradient(0deg, $blue-muted 0%, $accent 100%);
+$blue-gradient-lighten: linear-gradient(0deg, lighten($blue-muted, 20%) 0%, lighten($accent, 20%) 100%);
 
 // Tekst
 $font-size-base: 1rem; //16px;
@@ -24,15 +24,12 @@ $font-size-6: $font-size-base * 0.75;  // 10px
 $line-height-base: 1;
 $line-height-lg: 1.8;
 
-$letter-spacing-condensed: -.1rem;
-
 //Siatka
 $grid-base: 10px;
 $gutter: $grid-base * 1.5;
 
 //Bordery
-$radius-sm: $grid-base * 0.3;
-$radius-lg: $grid-base * 0.6;
+$radius: $grid-base * 0.6;
 
 //Breakpointy
 $bp-small: '768px';

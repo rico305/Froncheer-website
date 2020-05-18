@@ -1,12 +1,11 @@
 .btn {
     background: $blue-gradient;
     border: none;
-    border-radius: $radius-lg;
+    border-radius: $radius;
     color: $white;
     display: inline-block;
     font-size: $font-size-4;
     font-weight: 700;
-    line-height: $line-height-base;
     text-align: center;
     transition: all 0.25s ease-in-out;
     padding: 0.75rem 1.5rem;

@@ -59,6 +59,13 @@
         }
     }
 
+    &--lg75 {
+        @include lg-up {
+            flex: 0 0 75%;
+            max-width: 75%;
+        }
+    }
+
     &--lg50 {
         @include lg-up {
             flex: 0 0 50%;
@@ -77,13 +84,6 @@
         @include lg-up {
             flex: 0 0 25%;
             max-width: 25%;
-        }
-    }
-
-    &--lg75 {
-        @include lg-up {
-            flex: 0 0 75%;
-            max-width: 75%;
         }
     }
 

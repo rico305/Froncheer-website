@@ -1,13 +1,11 @@
 .hero {
-    background-color: $blue-dark;
     color: $white;
-    padding-top: $grid-base * 10;
+    background-color: $blue-dark;
     padding-bottom: $grid-base * 8;
+    padding-top: $grid-base * 10;
     
     @include md-up {
-        background: url("../img/bg-adbox.jpg"), $blue-dark;
-        background-position: center;
-        background-repeat: no-repeat;
+        background: url("../img/bg-adbox.jpg") center no-repeat, $blue-dark;
         height: 434px;
         padding-left: $grid-base * 5;
     }
@@ -27,9 +25,5 @@
     &__heading
     {
         margin-bottom: $grid-base * 2.5;
-    }
-
-    &__text {
-        text-align: justify;
     }
 }

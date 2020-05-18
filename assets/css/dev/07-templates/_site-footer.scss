@@ -2,8 +2,8 @@
     background-color: $blue-darker;
     color: $white-muted;
     font-weight: 200;
-    padding-top: $grid-base * 4;
     padding-bottom: $grid-base * 5;
+    padding-top: $grid-base * 4;
 
 
     &__item {
@@ -19,10 +19,10 @@
     }
 
     &__list-item {
+        border-bottom: 1px $blue-muted solid;
         display: block;
         padding-bottom: $grid-base * 1.5;
         padding-top: $grid-base * 1.5;
-        border-bottom: 1px $blue-muted solid;
     }
 
     &__newsletter-intro {
@@ -32,11 +32,15 @@
     }
 
     &__newsletter-input {
-        min-width: 50%;
-        margin-right: $grid-base * 2;
         margin-bottom: $grid-base * 2;
+        margin-right: $grid-base * 2;
+        min-width: 50%;
     }
     
+    &__newsletter-submit {
+        cursor: pointer;
+    }
+
     &__copyright {
         font-weight: 400;
         color: lighten($color: $blue-muted, $amount: 10%);
