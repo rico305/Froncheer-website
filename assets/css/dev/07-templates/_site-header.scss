@@ -1,0 +1,22 @@
+.site-header {
+    background-color: $black;
+    padding-top: $grid-base * 2;
+
+    @include md-up {
+        padding-top: 0;
+    }
+
+    &__logo {
+        text-align: center;
+        @include md-up {
+            text-align: initial;
+        }
+    }
+
+    &__nav {
+        text-align: center;
+        @include md-up {
+            text-align: right;
+        }
+    }
+}

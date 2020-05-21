@@ -10,9 +10,7 @@
         padding-left: $grid-base * 5;
     }
 
-    &__container {
-        padding-right: 0;
-        
+    &__container {        
         @include md-up {
             padding-right: $grid-base * 50;
         }

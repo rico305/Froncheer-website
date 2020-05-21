@@ -1,5 +1,4 @@
 .nav {
-    background-color: $black;
 
     &__item {
         color: $white;
@@ -13,11 +12,12 @@
 
         &:hover {
             color: $accent;
+            text-decoration: none;
         }
 
         @include sm-up {
             display: inline-block;
-            margin-left: $grid-base * 4;
+            margin-left: $grid-base * 3;
             width: auto;
         }
     }
